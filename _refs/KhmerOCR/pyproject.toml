@@ -1,0 +1,19 @@
+[project]
+name = "KhmerOCR"
+version = "0.1.0"
+description = "High-performance Khmer Optical Character Recognition (KhmerOCR)"
+authors = [{ name = "Seanghay Yath", email = "seanghay.dev@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = ["numpy", "pillow", "torch"]
+license = { text = "MIT" }
+
+[tool.ruff]
+indent-width = 2
+
+[dependency-groups]
+dev = ["ruff>=0.14.10"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
