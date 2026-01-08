@@ -2,6 +2,10 @@
 
 A Laravel app that wraps KhmerOCR for Khmer text recognition with a clean UI and basic multi-line detection. Upload an image, preview it, and copy the extracted text.
 
+## Screenshot
+
+![OCR UI](image.png)
+
 ## Requirements
 
 - PHP 8.2+
